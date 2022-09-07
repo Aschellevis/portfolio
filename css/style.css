@@ -1,0 +1,21 @@
+body {
+    background-color: #333333;
+}
+
+.nav {
+    background-color: #00ffff;
+}
+
+.main {
+    padding: 50px 0;
+    background-color: #8c8c8c;
+}
+
+.line {
+    background-image: linear-gradient(#8c8c8c, #00ffff, #8c8c8c);
+    height: 50px;
+}
+
+img {
+    width: 100%;
+}
