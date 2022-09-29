@@ -7,101 +7,76 @@
 <?php
     include_once ("template/nav.php");
 ?>
-    <div class="main col-10">
+    <div class="container-sm mt-5">
         <div class="row">
-            <div class="col-6 about py-3">
-                <div class="container">
-                    <img src="img/anouska.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
-                </div>
+            <div class="col-sm-12">
+                <h2 class="text-white ">Leefomgeving</h2>
             </div>
-            <div class="col-6 about py-3">
-                <div class="container">
-                    <img src="img/thuis.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
-                </div>
-            </div>
-            <figcaption>Dit ben ik, Anouska Schellevis. Ik ben geboren op 6 april 2003. Ik woon al heel mijn leven in 's-Gravenzande.</figcaption>
         </div>
-        <div class="row">
-            <div class="col-4 about py-3">
-                <div class="container">
-                    <img src="img/gezin.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
+    </div>
+    <div class="about container-fluid p-0">
+        <div class="row mb-5 mx-5 bg-secondary">
+            <div class="about-first col-md-4 p-0 mx-auto d-block">
+                <img src="img/thuis.jpg" alt="Thuis" class="image mx-auto d-block">
+                <div class="text-block">
+                    <p class="caption">Ik ben 19 jaar en woon mijn hele leven al in 's-Gravenzande.</p>
                 </div>
             </div>
-            <div class="col-4 about py-3">
-                <div class="container">
-                    <img src="img/molly.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
+            <div class="about-first col-md-3 p-0">
+                <img src="img/gezin.jpg" alt="Gezin" class="image mx-auto d-block">
+                <div class="text-block">
+                    <p class="caption">Mijn gezin bestaat uit mijn vader, moeder, zusje en broertje.</p>
                 </div>
             </div>
-            <div class="col-4 about py-3">
-                <div class="container">
-                    <img src="img/parkieten.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
-                </div>
-            </div>
-            <figcaption>Ik woon samen met mijn vader, moeder, zusje en broertje. Ik heb ook huisdieren, een hond(Molly) en 2 parkieten(Lilo en Sparky).</figcaption>
         </div>
-        <div class="row">
-            <div class="col-12 about py-3">
-                <div class="container">
-                    <img src="img/familie.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
+        <div class="row my-5 mx-5 bg-secondary">
+            <div class="about-first col-md-3 p-0 mx-auto">
+                <img src="img/molly.jpg" alt="Molly" class="image mx-auto d-block">
+                <div class="text-block">
+                    <p class="caption">Ik heb een hond genaamd Molly.</p>
                 </div>
             </div>
-            <figcaption>Ik ben heel hecht met mijn familie.</figcaption>
+            <div class="about-first col-md-3 p-0 mx-auto">
+                <img src="img/parkieten.jpg" alt="Parkieten" class="image mx-auto d-block">
+                <div class="text-block">
+                    <p class="caption">Daarnaast hebben we ook nog 2 parkieten.</p>
+                </div>
+            </div>
+            <div class="about-first col-md-3 p-0 mx-auto">
+                <img src="img/familie.jpg" alt="Familie" class="image mx-auto d-block">
+                <div class="text-block">
+                    <p class="caption">Mijn familie is erg belangrijk voor mij.</p>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="container-sm mt-5">
         <div class="row">
-            <div class="col-4 about py-3">
-                <div class="container">
-                    <img src="img/playstation.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
-                </div>
+            <div class="col-sm-12">
+                <h2 class="text-white ">Hobby's</h2>
             </div>
-            <div class="col-4 about py-3">
-                <div class="container">
-                    <img src="img/badminton.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 about py-3">
-                <div class="container">
-                    <img src="img/formule1.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
-                </div>
-            </div>
-            <figcaption>Mijn hobby's zijn gamen, badmintonnen en formule 1 kijken.</figcaption>
         </div>
-        <div class="row">
-            <div class="col-12 about py-3">
-                <div class="container">
-                    <img src="img/mondriaan.jpg" alt="Avatar" class="image mx-auto">
-                    <div class="middle">
-                        <div class="text">John Doe</div>
-                    </div>
+    </div>
+    <div class="about container-fluid p-0">
+        <div class="row mb-5 mx-5 bg-secondary">
+            <div class="about-first col-md-3 p-0 mx-auto">
+                <img src="img/formule1.jpg" alt="Formule 1" class="image mx-auto d-block">
+                <div class="text-block">
+                    <p class="caption">Ik ben een groot formule 1 fan.</p>
                 </div>
             </div>
-            <figcaption>Ik zit op het ROC Mondriaan in Den Haag waar ik de opleiding Software Developer volg.</figcaption>
+            <div class="about-first col-md-3 p-0 mx-auto">
+                <img src="img/badminton.jpg" alt="Badminton" class="image mx-auto d-block">
+                <div class="text-block">
+                    <p class="caption">Badminton is mijn grootste passie. Dit doe ik het liefst in mijn vrije tijd.</p>
+                </div>
+            </div>
+            <div class="about-first col-md-3 p-0 mx-auto">
+                <img src="img/puzzelen.jpg" alt="Puzzelen" class="image mx-auto d-block">
+                <div class="text-block">
+                    <p class="caption">Puzzelen is voor mij iets rustgevends. Ik zou dit uren kunnen doen.</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>

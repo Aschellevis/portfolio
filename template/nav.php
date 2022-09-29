@@ -18,9 +18,9 @@
         </a>
     </li>
     <li class="nav-item">
-        <a href="contact.php" class="nav-link link-dark">
-            <i class="bi bi-telephone"></i>
-            Contact
+        <a href="cv.php" class="nav-link link-dark">
+            <i class="bi bi-body-text"></i>
+            CV
         </a>
     </li>
 </ul>
