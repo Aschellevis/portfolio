@@ -1,4 +1,4 @@
-<ul class="nav justify-content-center m-3 p-3 fs-5 rounded">
+<ul class="nav justify-content-center m-3 p-3 fs-5 rounded sticky-top">
     <li class="nav-item">
         <a href="index.php" class="nav-link link-dark">
             <i class="bi bi-house"></i>
@@ -18,9 +18,9 @@
         </a>
     </li>
     <li class="nav-item">
-        <a href="contact.php" class="nav-link link-dark">
-            <i class="bi bi-telephone"></i>
-            Contact
+        <a href="cv.php" class="nav-link link-dark">
+            <i class="bi bi-body-text"></i>
+            CV
         </a>
     </li>
 </ul>

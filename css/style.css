@@ -8,14 +8,99 @@ body {
 
 .main {
     padding: 50px 0;
-    background-color: #8c8c8c;
+}
+
+.main-about {
+    background-color: #f2f2f2;
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0 0 10px #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.main-about img {
+    width: 60%;
 }
 
 .line {
-    background-image: linear-gradient(#8c8c8c, #00ffff, #8c8c8c);
+    background-image: linear-gradient(#333333, #00ffff, #333333);
     height: 50px;
 }
 
-img {
+.row {
+    --bs-gutter-x: 0;
+}
+
+.projects, .cv {
+    background-color: #262626;
+}
+
+.projects a, .cv a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.about .row {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about img {
+    height: 200px;
+    width: auto;
+    background-size: cover;
+}
+
+.about-first {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-block {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    transition: .5s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about-first:hover .image {
+    opacity: 0.3;
+}
+
+.about-first:hover .text-block {
+    opacity: 1;
+}
+
+.image {
+    opacity: 1;
+    display: block;
     width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.projects {
+    transition: transform .9s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects:hover {
+    transform: scale(1.1);
+}
+
+.healthone img {
+    width: 60%;
 }
