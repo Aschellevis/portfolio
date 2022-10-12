@@ -6,6 +6,41 @@ body {
     background-color: #00ffff;
 }
 
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    transition: all 0.6s ease;
+    color: white;
+    font-size: 30px;
+}
+
+.icon-bar a:hover {
+    padding-right: 30px;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.instagram {
+    background-image: linear-gradient(to bottom left, #843FB4, #FA040F, #F4D100);
+}
+
+.mail {
+    background: #EA4335;
+    color: white;
+}
+
 .main {
     padding: 50px 0;
 }
@@ -30,10 +65,6 @@ body {
 
 .row {
     --bs-gutter-x: 0;
-}
-
-.projects, .cv {
-    background-color: #262626;
 }
 
 .projects a, .cv a {
@@ -102,5 +133,71 @@ body {
 }
 
 .healthone img {
-    width: 60%;
+    border-radius: 30px
+}
+
+.slider img {
+    height: auto;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    font-family: 'Indie Flower', cursive;
+    font-size: 18pt;
+    cursor: pointer;
+    margin: 20px 0 40px 50px;
+    width: 180px;
+}
+
+.quote {
+    color: white;
+    margin: 0 50px 0 0;
+    font-size: 50pt;
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    text-align: center;
+    display: block;
+}
+
+.person {
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    text-align: right;
+    color: white;
+    margin-right: 50px;
+}
+
+.image-carrousel-title {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    margin: 0 0 50px 70px;
+    font-weight: bolder;
+}
+
+.carrousel img {
+    width: 500px;
+    height: 300px;
+}
+
+.carrousel-image {
+    display: none;
+    margin: auto;
+    max-height: 500px;
+}
+
+.carrousel-image.active {
+    display: block;
+}
+
+.previous_next {
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.previous, .next {
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
 }

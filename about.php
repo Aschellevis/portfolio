@@ -6,6 +6,7 @@
 <body>
 <?php
     include_once ("template/nav.php");
+    include_once ("template/mediabar.php")
 ?>
     <div class="container-sm mt-5">
         <div class="row">

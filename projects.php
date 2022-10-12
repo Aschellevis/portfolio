@@ -6,6 +6,7 @@ include_once ("template/head.php");
 <body>
 <?php
 include_once ("template/nav.php");
+include_once ("template/mediabar.php")
 ?>
 <div class="container-fluid my-5">
     <div class="container-md">
@@ -23,15 +24,15 @@ include_once ("template/nav.php");
                     <div class="card-header text-center">
                         <a href="projects_quotegenerator.php" class="stretched-link text-dark">Quotegenerator</a>
                     </div>
-                    <img src="img/healthone/healthone.jpg" class="card-img" alt="healthone">
+                    <img src="img/quotegenerator.jpg" class="card-img" alt="quotegenerator">
                 </div>
             </div>
             <div class="col-3 projects">
                 <div class="card">
                     <div class="card-header text-center">
-                        <a href="projects_quotegenerator.php" class="stretched-link text-dark">Image slider</a>
+                        <a href="projects_slider.php" class="stretched-link text-dark">Image slider</a>
                     </div>
-                    <img src="img/healthone/healthone.jpg" class="card-img" alt="healthone">
+                    <img src="img/slider.jpg" class="card-img" alt="image slider">
                 </div>
             </div>
         </div>

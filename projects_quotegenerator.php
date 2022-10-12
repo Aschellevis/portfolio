@@ -6,6 +6,7 @@ include_once ("template/head.php");
 <body>
 <?php
 include_once ("template/nav.php");
+include_once ("template/mediabar.php")
 ?>
 <div class="container-fluid my-5">
     <div class="container-md">
