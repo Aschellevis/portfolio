@@ -40,8 +40,8 @@ include_once ("template/nav.php");
             <div class="col-3"></div>
         </div>
     </div>
-    <div class="container-md">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="container-md my-5">
+        <div id="carouselExampleCaptions" class="carousel slide w-75 mx-auto" data-bs-ride="carousel">
             <div class="carousel-indicators text-dark">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -51,62 +51,68 @@ include_once ("template/nav.php");
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="slider carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/healthone/healthone.jpg" class="d-block w-100" alt="start healthone">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                    <img src="img/healthone/healthone.jpg" class="d-block w-100 rounded" alt="start healthone">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Dit is de homepagina van HealthOne</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/healthone/healthone_categories.jpg" class="d-block w-100" alt="categorieën">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                    <img src="img/healthone/healthone_categories.jpg" class="d-block w-100 mh-75 rounded" alt="categorieën">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Er zijn vier verschillende categorieën sportapparaten.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/healthone/healthone_reviews.jpg" class="d-block w-100" alt="reviews">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="img/healthone/healthone_reviews.jpg" class="d-block w-100 mh-75 rounded" alt="reviews">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Bij elk apparaat staan reviews die geschreven zijn door de bezoekers.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/healthone/healthone_reviews.jpg" class="d-block w-100" alt="reviews">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="img/healthone/healthone_contact.jpg" class="d-block w-100 rounded" alt="contact">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Er zijn verschillende manieren op contact op te nemen.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/healthone/healthone_reviews.jpg" class="d-block w-100" alt="reviews">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="img/healthone/healthone_register.jpg" class="d-block w-100 rounded" alt="registreren">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Om een account aan te maken, moet je registreren.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/healthone/healthone_reviews.jpg" class="d-block w-100" alt="reviews">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="img/healthone/healthone_login.jpg" class="d-block w-100 rounded" alt="inloggen">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Daarna kan je inloggen op de website.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/healthone/healthone_reviews.jpg" class="d-block w-100" alt="reviews">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="img/healthone/healthone_loggedin.jpg" class="d-block w-100 rounded" alt="ingelogd">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Als je bent ingelogd, kom je op je eigen homepagina.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/healthone/healthone_reviews.jpg" class="d-block w-100" alt="reviews">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="img/healthone/healthone_change_profile.jpg" class="d-block w-100 rounded" alt="profiel veranderen">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Je kan zelf je profiel veranderen.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/healthone/healthone_change_password.jpg" class="d-block w-100 rounded" alt="wachtwoord veranderen">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Wachtwoord kan ook veranderd worden.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/healthone/healthone_new_review.jpg" class="d-block w-100 rounded" alt="nieuwe review">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+                        <p>Je moet ingelogd zijn om een review te kunnen schrijven.</p>
                     </div>
                 </div>
             </div>
