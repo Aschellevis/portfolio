@@ -1,0 +1,258 @@
+body {
+    background-color: #333333;
+}
+
+.nav {
+    background-color: #00ffff;
+}
+
+.icon-bar-1 {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.icon-bar-2{
+    position: fixed;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.icon-bar-3 {
+    position: fixed;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.icon-bar-1 a, .icon-bar-2 a, .icon-bar-3 a{
+    display: block;
+    text-align: center;
+    padding: 14px;
+    transition: all 0.6s ease;
+    color: white;
+    font-size: 30px;
+}
+
+.icon-bar-1 a:hover, .icon-bar-2 a:hover, .icon-bar-3 a:hover{
+    padding-left: 30px;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.instagram {
+    background-image: linear-gradient(to bottom left, #843FB4, #FA040F, #F4D100);
+}
+
+.mail {
+    background: #EA4335;
+    color: white;
+}
+
+.main {
+    background-color: #f2f2f2;
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0 0 10px #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.main img {
+    width: 60%;
+}
+
+.main-projects {
+    background-color: #f2f2f2;
+    margin: 100px auto;
+    -webkit-box-shadow: 0 0 10px #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+    transition: transform .9s;
+}
+
+.line {
+    background-image: linear-gradient(#333333, #00ffff, #333333);
+    height: 50px;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.projects a, .cv a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.about .row {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about img {
+    height: 200px;
+    width: auto;
+    background-size: cover;
+}
+
+.about-first {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-block {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    transition: .5s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about-first:hover .image {
+    opacity: 0.3;
+}
+
+.about-first:hover .text-block {
+    opacity: 1;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.projects:hover {
+    transform: scale(1.1);
+}
+
+.healthone img {
+    border-radius: 30px
+}
+
+.slider img {
+    height: auto;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    font-family: 'Indie Flower', cursive;
+    font-size: 18pt;
+    cursor: pointer;
+    margin: 20px 0 40px 50px;
+    width: 180px;
+}
+
+.quote_block {
+    margin: 80px 0 0 0;
+    padding-left: 40px;
+}
+
+.quote {
+    color: white;
+    font-size: 50pt;
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    text-align: center;
+    display: block;
+}
+
+.person {
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    text-align: right;
+    color: white;
+    margin-right: 50px;
+}
+
+.image-carrousel-title {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    margin: 0 0 50px 70px;
+    font-weight: bolder;
+}
+
+.carrousel img {
+    width: 500px;
+    height: 300px;
+}
+
+.carrousel-image {
+    display: none;
+    margin: auto;
+    max-height: 500px;
+}
+
+.carrousel-image.active {
+    display: block;
+}
+
+.previous_next {
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.previous, .next {
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.jumper {
+    color: #ecec13;
+}
+
+.cv_block {
+    width: 60%;
+}
+
+.list-group {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.list-group-item {
+    background-color: #2d5986;
+    color: #ffffff;
+}
+
+.cv_block_left i {
+    padding: 10px;
+}
+
+.cv_block_right {
+    background-color: #e6e6e6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cv_line {
+    border: 1px solid #000000;
+    width: 75%;
+    margin: auto;
+}
